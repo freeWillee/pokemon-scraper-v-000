@@ -18,7 +18,7 @@ class Pokemon
     pokemon = db.execute(
       "SELECT name
       FROM pokemon
-      WHERE i"
+      WHERE id = 1"
     )
 
     pokemon
